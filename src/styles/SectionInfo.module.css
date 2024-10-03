@@ -1,0 +1,30 @@
+.container {
+    border: 1px solid var(---border-color);
+    border-radius: 15px;
+    padding: 10px 7px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    justify-content: center;
+    text-align: left;
+    color: white;
+}
+.infoContainer h3 {
+    font-size: 42px;
+    height: 48px;
+}
+
+.infoContainer span {
+    color: var(--foreground);
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+.container p {
+    color: var(--foreground);
+    max-width: 240px;
+    font-weight: 300;
+    font-size: 14px;
+}
