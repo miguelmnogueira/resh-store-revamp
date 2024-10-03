@@ -1,0 +1,27 @@
+.infoContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 52px;
+}
+
+.accountContainer {
+    display: flex;
+    color: white;
+    gap: 5px;
+}
+
+.accountContainer span {
+    font-weight: 300;
+}
+
+.infoContainer button {
+    height: 45px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    border-radius: 60px;
+}
