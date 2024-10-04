@@ -1,8 +1,14 @@
 .nav {
+    background: linear-gradient(to bottom, #000000, #00000000);
+    z-index: 1000;
     padding: 0 80px;
+    position: sticky;
+    top: 0;
     height: 93px;
     border-bottom: 1px solid var(---border-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
+    backdrop-filter: blur(20px) brightness(0.8);
 }

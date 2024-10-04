@@ -1,0 +1,69 @@
+.mainContainer {
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width: 350px;
+    background-color: var(---background-color);
+    gap: 15px;
+    color: white;
+}
+.mainContainer:hover > .imgContainer .cardImg {
+    transform: scale(1.05);
+}
+
+.cardImg {
+    transition: all 0.3s ease;
+    height: 340px;
+}
+
+.mainContainer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discountedPrice {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.moreInfo {
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.subInfoContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 340px;
+}

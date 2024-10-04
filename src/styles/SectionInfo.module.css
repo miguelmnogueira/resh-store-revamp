@@ -1,18 +1,17 @@
 .container {
     border: 1px solid var(---border-color);
     border-radius: 15px;
-    padding: 10px 7px;
-
+    padding: 20px 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 300px;
+    width: 350px;
     justify-content: center;
     text-align: left;
     color: white;
 }
 .infoContainer h3 {
-    font-size: 42px;
+    font-size: 48px;
     height: 48px;
 }
 
@@ -26,5 +25,5 @@
     color: var(--foreground);
     max-width: 240px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
 }
